@@ -1,7 +1,7 @@
 import requests
 from bs4 import BeautifulSoup
 
-url = "https://www.w3schools.com/python/"
+url = "https://moodle.jessup.edu/login/index.php"
 response = requests.get(url)
 
 if response.status_code == 200:
